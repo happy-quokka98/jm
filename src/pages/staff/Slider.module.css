@@ -1,0 +1,234 @@
+/* ==========================================================================
+   JM TOWER SUPER-MODERN TEAM SHOWCASE
+   ========================================================================== */
+
+.staffSection {
+  position: relative;
+  padding: 110px 0 125px;
+  background: linear-gradient(180deg, #f8fafc 0%, #ffffff 50%, #f1f5f9 100%);
+  border-top: 1px solid rgba(226, 232, 240, 0.85);
+  border-bottom: 1px solid rgba(226, 232, 240, 0.85);
+  overflow: hidden;
+}
+
+.header {
+  position: relative;
+  z-index: 2;
+  text-align: center;
+  max-width: 780px;
+  margin: 0 auto 60px;
+}
+
+.eyebrow {
+  display: inline-block;
+  padding: 7px 22px;
+  background: rgba(197, 155, 39, 0.12);
+  border: 1px solid rgba(197, 155, 39, 0.35);
+  border-radius: 50px;
+  color: #9a7312;
+  font-family: 'Plus Jakarta Sans', 'Noto Sans Georgian', sans-serif;
+  font-size: 0.82rem;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-bottom: 16px;
+}
+
+.title {
+  font-family: 'Plus Jakarta Sans', 'Noto Sans Georgian', sans-serif;
+  font-size: clamp(2.3rem, 5vw, 3rem);
+  font-weight: 800;
+  color: #0b1727;
+  letter-spacing: -0.5px;
+  line-height: 1.2;
+  margin-bottom: 14px;
+}
+
+.subtitle {
+  font-family: 'Plus Jakarta Sans', 'Noto Sans Georgian', sans-serif;
+  font-size: 1.1rem;
+  color: #64748b;
+  margin-bottom: 22px;
+  line-height: 1.65;
+}
+
+.divider {
+  width: 65px;
+  height: 3px;
+  background: linear-gradient(90deg, #dfb743 0%, #c59b27 100%);
+  border-radius: 2px;
+  margin: 0 auto;
+}
+
+/* Slider Container */
+.sliderContainer {
+  width: 100%;
+  max-width: 1260px;
+  margin: 0 auto;
+  padding: 10px 45px 35px;
+  position: relative;
+}
+
+/* For individual swiper slides */
+.swiperSlide {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  height: auto;
+  padding: 14px 6px;
+}
+
+/* Styling for each card */
+.card {
+  width: 100%;
+  max-width: 365px;
+  background-color: #ffffff !important;
+  border-radius: 26px;
+  overflow: hidden;
+  border: 1px solid rgba(226, 232, 240, 0.95) !important;
+  box-shadow: 0 18px 40px -10px rgba(15, 23, 42, 0.08), 0 0 0 1px rgba(15, 23, 42, 0.03) !important;
+  transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+  display: flex;
+  flex-direction: column;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  border-color: rgba(223, 183, 67, 0.5) !important;
+  box-shadow: 0 30px 65px -15px rgba(15, 23, 42, 0.18), 0 0 30px rgba(223, 183, 67, 0.15) !important;
+}
+
+/* Card image wrapper */
+.imageWrapper {
+  position: relative;
+  width: 100%;
+  height: 300px;
+  overflow: hidden;
+  background-color: #080e18;
+}
+
+.cardImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center 20%;
+  transition: transform 0.65s cubic-bezier(0.165, 0.84, 0.44, 1);
+  display: block;
+}
+
+.card:hover .cardImage {
+  transform: scale(1.07);
+}
+
+/* Department badge overlay on image */
+.deptBadge {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  background: rgba(8, 14, 24, 0.78);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border: 1px solid rgba(223, 183, 67, 0.4);
+  color: #dfb743;
+  font-family: 'Plus Jakarta Sans', 'Noto Sans Georgian', sans-serif;
+  font-weight: 700;
+  font-size: 0.78rem;
+  padding: 6px 16px;
+  border-radius: 50px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  z-index: 2;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.35);
+}
+
+/* Content section of the card */
+.cardContent {
+  padding: 26px 24px 28px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  justify-content: space-between;
+  background: linear-gradient(180deg, #ffffff 0%, #fafcff 100%);
+}
+
+.cardTitle {
+  font-family: 'Plus Jakarta Sans', 'Noto Sans Georgian', sans-serif;
+  font-size: 1.38rem;
+  font-weight: 800;
+  color: #0b1727;
+  margin-bottom: 6px;
+  letter-spacing: -0.3px;
+  transition: color 0.3s ease;
+}
+
+.card:hover .cardTitle {
+  color: #b08518;
+}
+
+.cardDescription {
+  font-family: 'Plus Jakarta Sans', 'Noto Sans Georgian', sans-serif;
+  font-size: 0.96rem;
+  color: #64748b;
+  font-weight: 500;
+  line-height: 1.45;
+  margin-bottom: 22px;
+}
+
+/* Contact button inside card */
+.contactBtn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 10px 26px;
+  font-family: 'Plus Jakarta Sans', 'Noto Sans Georgian', sans-serif;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #0b1320;
+  background: rgba(197, 155, 39, 0.1);
+  border: 1px solid rgba(197, 155, 39, 0.32);
+  border-radius: 50px;
+  text-decoration: none;
+  transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+  margin: 0 auto;
+}
+
+.contactBtn:hover {
+  background: linear-gradient(135deg, #dfb743 0%, #c59b27 100%);
+  color: #0b1320;
+  border-color: #dfb743;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(223, 183, 67, 0.38);
+}
+
+/* Responsive styles */
+@media (max-width: 1024px) {
+  .sliderContainer {
+    padding: 10px 30px 30px;
+  }
+  .title {
+    font-size: 2.3rem;
+  }
+  .imageWrapper {
+    height: 270px;
+  }
+}
+
+@media (max-width: 768px) {
+  .staffSection {
+    padding: 75px 0 85px;
+  }
+  .sliderContainer {
+    padding: 10px 10px 25px;
+  }
+  .title {
+    font-size: 2.1rem;
+  }
+  .cardTitle {
+    font-size: 1.25rem;
+  }
+  .imageWrapper {
+    height: 290px;
+  }
+}

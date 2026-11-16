@@ -1,0 +1,271 @@
+/* ==========================================================================
+   JM TOWER SUPER-MODERN CINEMATIC HERO SECTION
+   ========================================================================== */
+
+.hero-container {
+  background-image: 
+    radial-gradient(circle at 50% 40%, rgba(11, 19, 32, 0.25) 0%, rgba(8, 14, 24, 0.75) 70%, rgba(8, 14, 24, 0.95) 100%),
+    linear-gradient(180deg, rgba(8, 14, 24, 0.8) 0%, rgba(8, 14, 24, 0.2) 30%, rgba(8, 14, 24, 0.45) 70%, #080e18 100%),
+    url('./../../assets/hero-bg.jpg');
+  background-size: cover;
+  background-position: center 30%;
+  background-attachment: fixed;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #ffffff;
+  position: relative;
+  z-index: 1;
+  padding: 130px 24px 100px;
+  overflow: hidden;
+}
+
+/* Subtle architectural ambient lights */
+.hero-container::before {
+  content: '';
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 800px;
+  height: 400px;
+  background: radial-gradient(ellipse, rgba(223, 183, 67, 0.12) 0%, transparent 70%);
+  pointer-events: none;
+  z-index: 1;
+}
+
+.hero-slider {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  z-index: 2;
+}
+
+.hero-inner {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Override narrow bootstrap grid column on desktop */
+.hero-inner .row > div {
+  width: 100% !important;
+  max-width: 960px !important;
+  margin: 0 auto !important;
+  flex: none !important;
+}
+
+/* Open, Cinematic Content Container */
+.hero-details {
+  max-width: 920px;
+  margin: 0 auto;
+  padding: 10px 10px 20px;
+  background: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+  backdrop-filter: none !important;
+  -webkit-backdrop-filter: none !important;
+  animation: heroEntrance 1.2s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+@keyframes heroEntrance {
+  0% {
+    opacity: 0;
+    transform: translateY(35px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Glowing Top Eyebrow Badge */
+.hero-details::before {
+  content: 'JM TOWER • BATUMI LUXURY LIVING';
+  display: inline-block;
+  padding: 8px 24px;
+  background: rgba(11, 19, 32, 0.7);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(223, 183, 67, 0.4);
+  border-radius: 50px;
+  font-family: 'Plus Jakarta Sans', 'Noto Sans Georgian', sans-serif;
+  font-size: 0.82rem;
+  font-weight: 700;
+  letter-spacing: 2.2px;
+  text-transform: uppercase;
+  color: #dfb743;
+  margin-bottom: 24px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4), 0 0 15px rgba(223, 183, 67, 0.15);
+}
+
+/* Super-Modern Architectural Title */
+.hero-details h1 {
+  font-family: 'Plus Jakarta Sans', 'Noto Sans Georgian', sans-serif;
+  font-size: clamp(2.6rem, 6.2vw, 4.8rem);
+  font-weight: 800;
+  margin: 0 0 24px;
+  letter-spacing: -1px;
+  line-height: 1.14;
+  text-transform: capitalize;
+  text-shadow: 0 4px 30px rgba(0, 0, 0, 0.85), 0 2px 10px rgba(0, 0, 0, 0.7);
+}
+
+.hero-details h1 span {
+  background: linear-gradient(135deg, #ffffff 35%, #f5d47a 70%, #dfb743 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+  filter: drop-shadow(0 3px 18px rgba(0, 0, 0, 0.8));
+}
+
+/* Clean, Readable Subtitle */
+.hero-details p {
+  font-family: 'Plus Jakarta Sans', 'Noto Sans Georgian', sans-serif;
+  font-size: clamp(1.08rem, 2.2vw, 1.28rem);
+  margin: 0 auto 40px;
+  line-height: 1.8;
+  font-weight: 400;
+  color: #f1f5f9;
+  max-width: 720px;
+  text-shadow: 0 2px 18px rgba(0, 0, 0, 0.95), 0 1px 6px rgba(0, 0, 0, 0.8);
+}
+
+.hero-btn-box {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+/* Super Modern Glowing Pill CTA */
+.hero-btn-cta {
+  font-family: 'Plus Jakarta Sans', 'Noto Sans Georgian', sans-serif;
+  font-size: 1.08rem;
+  font-weight: 700;
+  letter-spacing: 0.6px;
+  color: #080e18 !important;
+  background: linear-gradient(135deg, #fce59f 0%, #dfb743 50%, #c59b27 100%);
+  padding: 17px 46px;
+  text-decoration: none;
+  border-radius: 50px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  box-shadow: 0 10px 30px rgba(223, 183, 67, 0.45), 0 4px 15px rgba(0, 0, 0, 0.4);
+  transition: all 0.35s cubic-bezier(0.165, 0.84, 0.44, 1);
+  position: relative;
+  overflow: hidden;
+}
+
+.hero-btn-cta::after {
+  content: '→';
+  font-size: 1.2rem;
+  font-weight: 800;
+  transition: transform 0.3s ease;
+}
+
+.hero-btn-cta:hover::after {
+  transform: translateX(4px);
+}
+
+.hero-btn-cta::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.5), transparent);
+  transition: left 0.6s ease;
+}
+
+.hero-btn-cta:hover::before {
+  left: 100%;
+}
+
+.hero-btn-cta:hover {
+  transform: translateY(-3px) scale(1.03);
+  box-shadow: 0 18px 40px rgba(223, 183, 67, 0.6), 0 6px 20px rgba(0, 0, 0, 0.5);
+  color: #000000 !important;
+}
+
+/* Animated Scroll Down Indicator */
+.hero-container::after {
+  content: '';
+  position: absolute;
+  bottom: 25px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 24px;
+  height: 38px;
+  border: 2px solid rgba(223, 183, 67, 0.45);
+  border-radius: 20px;
+  background: rgba(11, 19, 32, 0.5);
+  backdrop-filter: blur(4px);
+  animation: scrollBob 2s infinite ease-in-out;
+  pointer-events: none;
+  z-index: 2;
+  background-image: radial-gradient(circle, #dfb743 2px, transparent 3px);
+  background-repeat: no-repeat;
+  background-position: center 8px;
+}
+
+@keyframes scrollBob {
+  0%, 100% {
+    transform: translateX(-50%) translateY(0);
+    opacity: 0.8;
+  }
+  50% {
+    transform: translateX(-50%) translateY(8px);
+    opacity: 0.3;
+  }
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+  .hero-container {
+    padding: 110px 18px 75px;
+    background-attachment: scroll;
+    background-position: center 20%;
+  }
+
+  .hero-details::before {
+    font-size: 0.72rem;
+    padding: 6px 16px;
+    letter-spacing: 1.6px;
+    margin-bottom: 18px;
+  }
+
+  .hero-details h1 {
+    font-size: 2.35rem;
+    margin-bottom: 16px;
+    line-height: 1.18;
+  }
+
+  .hero-details p {
+    font-size: 1.02rem;
+    line-height: 1.65;
+    margin-bottom: 28px;
+  }
+
+  .hero-btn-cta {
+    padding: 14px 38px;
+    font-size: 0.98rem;
+    width: auto;
+    min-width: 200px;
+  }
+
+  .hero-container::after {
+    bottom: 15px;
+    width: 20px;
+    height: 32px;
+  }
+}

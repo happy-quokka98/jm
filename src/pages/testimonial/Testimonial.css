@@ -1,0 +1,285 @@
+/* ==========================================================================
+   JM TOWER SUPER-MODERN CLIENT TESTIMONIALS & REVIEWS
+   ========================================================================== */
+
+.testimonial-section {
+  position: relative;
+  padding: 110px 0 125px;
+  background: #ffffff !important;
+  color: #0b1727;
+  overflow: hidden;
+}
+
+.testimonial-header {
+  position: relative;
+  z-index: 2;
+  text-align: center;
+  max-width: 780px;
+  margin: 0 auto 60px;
+}
+
+.testimonial-eyebrow {
+  display: inline-block;
+  padding: 7px 22px;
+  background: rgba(197, 155, 39, 0.12);
+  border: 1px solid rgba(197, 155, 39, 0.35);
+  border-radius: 50px;
+  color: #9a7312;
+  font-family: 'Plus Jakarta Sans', 'Noto Sans Georgian', sans-serif;
+  font-size: 0.82rem;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-bottom: 16px;
+}
+
+.testimonial-title {
+  font-family: 'Plus Jakarta Sans', 'Noto Sans Georgian', sans-serif;
+  font-size: clamp(2.3rem, 5vw, 3rem);
+  font-weight: 800;
+  color: #0b1727;
+  letter-spacing: -0.5px;
+  line-height: 1.2;
+  margin-bottom: 14px;
+}
+
+.testimonial-subtitle {
+  font-family: 'Plus Jakarta Sans', 'Noto Sans Georgian', sans-serif;
+  font-size: 1.1rem;
+  color: #64748b;
+  margin-bottom: 22px;
+  line-height: 1.65;
+}
+
+.testimonial-divider {
+  width: 65px;
+  height: 3px;
+  background: linear-gradient(90deg, #dfb743, #c59b27);
+  border-radius: 2px;
+  margin: 0 auto;
+}
+
+/* Carousel Container */
+.testimonial-carousel-wrapper {
+  max-width: 920px;
+  margin: 0 auto;
+  position: relative;
+  padding: 0 55px;
+}
+
+/* Card */
+.testimonial-card {
+  position: relative;
+  background: #ffffff;
+  border: 1px solid rgba(226, 232, 240, 0.95);
+  border-radius: 28px;
+  padding: 52px 55px 44px;
+  box-shadow: 0 20px 45px -10px rgba(15, 23, 42, 0.08), 0 0 0 1px rgba(15, 23, 42, 0.03);
+  margin: 10px auto 45px;
+  text-align: left;
+  transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.testimonial-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 30px 65px -15px rgba(15, 23, 42, 0.16);
+  border-color: rgba(223, 183, 67, 0.5);
+}
+
+/* Quote Icon */
+.testimonial-quote-icon {
+  position: absolute;
+  top: 38px;
+  right: 44px;
+  font-size: 3.2rem;
+  color: rgba(223, 183, 67, 0.2);
+  pointer-events: none;
+}
+
+/* Meta Top: Stars + Verified Badge */
+.testimonial-meta-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 15px;
+  flex-wrap: wrap;
+  margin-bottom: 22px;
+}
+
+.testimonial-stars {
+  display: flex;
+  gap: 5px;
+  color: #dfb743;
+  font-size: 1.25rem;
+}
+
+.star-icon {
+  filter: drop-shadow(0 2px 6px rgba(223, 183, 67, 0.35));
+}
+
+.testimonial-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  padding: 6px 16px;
+  border-radius: 50px;
+  background: rgba(16, 185, 129, 0.1);
+  border: 1px solid rgba(16, 185, 129, 0.28);
+  color: #059669;
+  font-family: 'Plus Jakarta Sans', 'Noto Sans Georgian', sans-serif;
+  font-size: 0.84rem;
+  font-weight: 600;
+}
+
+.badge-icon {
+  font-size: 0.95rem;
+}
+
+/* Review Text */
+.testimonial-text {
+  font-family: 'Plus Jakarta Sans', 'Noto Sans Georgian', sans-serif;
+  font-size: 1.18rem;
+  line-height: 1.85;
+  color: #334155;
+  font-style: italic;
+  margin: 18px 0 30px;
+  font-weight: 450;
+}
+
+/* Author Info */
+.testimonial-author {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  border-top: 1px solid #f1f5f9;
+  padding-top: 24px;
+}
+
+.author-avatar-wrap {
+  flex-shrink: 0;
+}
+
+.author-avatar {
+  width: 66px;
+  height: 66px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #ffffff;
+  outline: 2.5px solid #dfb743;
+  box-shadow: 0 4px 16px rgba(15, 43, 72, 0.18);
+}
+
+.author-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.author-name {
+  font-family: 'Plus Jakarta Sans', 'Noto Sans Georgian', sans-serif;
+  font-size: 1.28rem;
+  font-weight: 800;
+  color: #0b1727;
+  margin: 0 0 4px;
+  letter-spacing: -0.2px;
+}
+
+.author-role {
+  font-family: 'Plus Jakarta Sans', 'Noto Sans Georgian', sans-serif;
+  font-size: 0.92rem;
+  color: #64748b;
+  font-weight: 500;
+}
+
+/* Arrow Navigation Buttons */
+.testimonial-arrow-btn {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background: #ffffff;
+  border: 1px solid rgba(226, 232, 240, 0.9);
+  color: #0b1320;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.05rem;
+  box-shadow: 0 8px 22px rgba(15, 43, 72, 0.12);
+  transition: all 0.35s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.testimonial-arrow-btn:hover {
+  background: linear-gradient(135deg, #dfb743, #c59b27);
+  color: #0b1320;
+  border-color: #dfb743;
+  transform: scale(1.08);
+  box-shadow: 0 10px 28px rgba(223, 183, 67, 0.4);
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  width: 48px;
+  opacity: 1;
+}
+
+.carousel-control-prev {
+  left: 0;
+}
+
+.carousel-control-next {
+  right: 0;
+}
+
+/* Carousel Indicators (Dots) */
+.testimonial-carousel-wrapper .carousel-indicators {
+  bottom: -35px;
+  margin-bottom: 0;
+}
+
+.testimonial-carousel-wrapper .carousel-indicators [data-bs-target] {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #cbd5e1;
+  border: none;
+  transition: all 0.3s ease;
+  opacity: 0.8;
+  margin: 0 6px;
+}
+
+.testimonial-carousel-wrapper .carousel-indicators .active {
+  width: 32px;
+  border-radius: 10px;
+  background: linear-gradient(90deg, #dfb743, #c59b27);
+  opacity: 1;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .testimonial-section {
+    padding: 75px 0 85px;
+  }
+  .testimonial-carousel-wrapper {
+    padding: 0 16px;
+  }
+  .testimonial-card {
+    padding: 36px 24px 30px;
+    border-radius: 22px;
+  }
+  .testimonial-title {
+    font-size: 2.1rem;
+  }
+  .testimonial-text {
+    font-size: 1.08rem;
+    line-height: 1.75;
+  }
+  .author-avatar {
+    width: 56px;
+    height: 56px;
+  }
+  .author-name {
+    font-size: 1.15rem;
+  }
+  .carousel-control-prev,
+  .carousel-control-next {
+    display: none;
+  }
+}

@@ -1,0 +1,279 @@
+/* ==========================================================================
+   JM TOWER SUPER-MODERN SPACES & RESIDENCES SHOWCASE
+   ========================================================================== */
+
+.listingSection {
+  padding: 110px 0 125px;
+  background-color: #ffffff;
+  position: relative;
+}
+
+.container {
+  width: 100%;
+  max-width: 1260px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+/* Header */
+.header {
+  text-align: center;
+  max-width: 780px;
+  margin: 0 auto 60px;
+}
+
+.eyebrow {
+  display: inline-block;
+  padding: 7px 22px;
+  background: rgba(197, 155, 39, 0.12);
+  border: 1px solid rgba(197, 155, 39, 0.35);
+  border-radius: 50px;
+  color: #9a7312;
+  font-family: 'Plus Jakarta Sans', 'Noto Sans Georgian', sans-serif;
+  font-size: 0.82rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 16px;
+}
+
+.title {
+  font-family: 'Plus Jakarta Sans', 'Noto Sans Georgian', sans-serif;
+  font-size: clamp(2.3rem, 5vw, 3rem);
+  font-weight: 800;
+  color: #0b1727;
+  letter-spacing: -0.5px;
+  margin: 0 0 14px;
+  line-height: 1.2;
+}
+
+.subtitle {
+  font-family: 'Plus Jakarta Sans', 'Noto Sans Georgian', sans-serif;
+  font-size: 1.1rem;
+  color: #64748b;
+  margin: 0 0 22px;
+  line-height: 1.65;
+}
+
+.divider {
+  width: 65px;
+  height: 3px;
+  background: linear-gradient(90deg, #dfb743 0%, #c59b27 100%);
+  border-radius: 2px;
+  margin: 0 auto;
+}
+
+/* Slider Wrapper */
+.sliderWrapper {
+  position: relative;
+  width: 100%;
+  padding-bottom: 45px;
+}
+
+.swiperSlide {
+  display: flex;
+  height: auto;
+  padding: 12px 6px;
+}
+
+/* Card */
+.card {
+  width: 100%;
+  background: #ffffff;
+  border: 1px solid rgba(226, 232, 240, 0.95);
+  border-radius: 26px;
+  overflow: hidden;
+  box-shadow: 0 20px 45px -10px rgba(15, 23, 42, 0.08), 0 0 0 1px rgba(15, 23, 42, 0.03);
+  display: grid;
+  grid-template-columns: 50% 50%;
+  transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.card:hover {
+  transform: translateY(-8px);
+  border-color: rgba(223, 183, 67, 0.5);
+  box-shadow: 0 32px 65px -15px rgba(15, 23, 42, 0.16), 0 0 30px rgba(223, 183, 67, 0.15);
+}
+
+/* Image Column */
+.imageCol {
+  position: relative;
+  min-height: 460px;
+  background-color: #080e18;
+  overflow: hidden;
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.65s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.card:hover .image {
+  transform: scale(1.07);
+}
+
+/* Info Column */
+.infoCol {
+  padding: 48px 46px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: linear-gradient(180deg, #ffffff 0%, #fafcff 100%);
+}
+
+.badge {
+  display: inline-block;
+  font-family: 'Plus Jakarta Sans', 'Noto Sans Georgian', sans-serif;
+  font-size: 0.82rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1.4px;
+  color: #9a7312;
+  background: rgba(197, 155, 39, 0.12);
+  border: 1px solid rgba(197, 155, 39, 0.32);
+  padding: 6px 16px;
+  border-radius: 50px;
+  margin-bottom: 16px;
+}
+
+.cardTitle {
+  font-family: 'Plus Jakarta Sans', 'Noto Sans Georgian', sans-serif;
+  font-size: 2.1rem;
+  font-weight: 800;
+  color: #0b1727;
+  letter-spacing: -0.4px;
+  margin: 0 0 8px;
+  line-height: 1.25;
+}
+
+.cardSubtitle {
+  font-family: 'Plus Jakarta Sans', 'Noto Sans Georgian', sans-serif;
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: #b08518;
+  margin: 0 0 16px;
+}
+
+.cardDescription {
+  font-family: 'Plus Jakarta Sans', 'Noto Sans Georgian', sans-serif;
+  font-size: 1.02rem;
+  line-height: 1.75;
+  color: #475569;
+  margin: 0 0 24px;
+}
+
+/* Specifications Grid */
+.specsList {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 30px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px 16px;
+}
+
+.specsList li {
+  position: relative;
+  padding: 9px 14px 9px 32px;
+  background: #f1f5f9;
+  border-radius: 10px;
+  font-family: 'Plus Jakarta Sans', 'Noto Sans Georgian', sans-serif;
+  font-size: 0.92rem;
+  color: #1e293b;
+  font-weight: 600;
+  transition: all 0.25s ease;
+  border: 1px solid rgba(226, 232, 240, 0.8);
+}
+
+.specsList li:hover {
+  background: #e2e8f0;
+  border-color: #cbd5e1;
+}
+
+.specsList li::before {
+  content: '✓';
+  position: absolute;
+  left: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #c59b27;
+  font-weight: 900;
+  font-size: 0.95rem;
+}
+
+/* Action Button */
+.actionRow {
+  padding-top: 20px;
+  border-top: 1px solid #e2e8f0;
+}
+
+.ctaBtn {
+  display: inline-block;
+  padding: 14px 38px;
+  background-color: #0b1320;
+  color: #ffffff !important;
+  font-family: 'Plus Jakarta Sans', 'Noto Sans Georgian', sans-serif;
+  font-size: 0.98rem;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  border-radius: 50px;
+  border: 1px solid rgba(212, 175, 55, 0.4);
+  text-decoration: none;
+  box-shadow: 0 6px 20px rgba(11, 19, 32, 0.16);
+  transition: all 0.35s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.ctaBtn:hover {
+  background: linear-gradient(135deg, #dfb743 0%, #c59b27 100%);
+  color: #0b1320 !important;
+  border-color: #dfb743;
+  transform: translateY(-2px);
+  box-shadow: 0 14px 32px rgba(223, 183, 67, 0.45);
+}
+
+/* Responsive */
+@media (max-width: 992px) {
+  .listingSection {
+    padding: 75px 0 85px;
+  }
+
+  .card {
+    grid-template-columns: 1fr;
+  }
+
+  .imageCol {
+    height: 330px;
+    min-height: 330px;
+  }
+
+  .infoCol {
+    padding: 34px 26px;
+  }
+
+  .cardTitle {
+    font-size: 1.7rem;
+  }
+
+  .specsList {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 576px) {
+  .title {
+    font-size: 2.1rem;
+  }
+
+  .imageCol {
+    height: 260px;
+    min-height: 260px;
+  }
+
+  .ctaBtn {
+    width: 100%;
+    text-align: center;
+  }
+}

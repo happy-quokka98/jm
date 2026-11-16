@@ -1,0 +1,194 @@
+{
+  "common": {
+    "welcome": "Welcome",
+    "language": "Language",
+    "logo": "JM Group Logo"
+  },
+  "nav": {
+    "home": "HOME",
+    "listing": "LISTING",
+    "blocks": "BLOCKS",
+    "rooms": "ROOMS",
+    "about": "ABOUT",
+    "staff": "STAFF",
+    "gallery": "GALLERY",
+    "contact": "CONTACT US"
+  },
+  "regular": {
+    "block": "block",
+
+    "blockaa": "Molly tower",
+    "blockbb": "B tower",
+    "blockcc": "C tower",
+
+    "blocka": "Refined, modern interior. Bright apartments with views of mountains, sea and city. It includes a large commercial space that will be loaded with commercial areas of various purposes. Construction of Molly tower will be completed after B tower.",
+    "blockb": "Comfortable apartment for living. You can choose apartments both on the sunrise side with views of old Batumi, and on the sunny side - with views of new Batumi. P.S. Construction of B tower will be completed first.",
+    "blockc": "House with modern design, with guaranteed views. From the high floor, a beautiful view of old Batumi will unfold before you. You will be able to see the beauty of the sea, central park, and Lake Nuri from your balcony. Construction will be completed after Molly and B towers.",
+
+    "discover": "Multifunctional premium class complex in Batumi",
+    "explore": "An investment that retains its value. JM Tower is a residential complex based on modern standards, combining quality construction, functional planning and a comfortable environment. It is an ideal solution for both living and investment.",
+
+    "listing": {
+      "eyebrow": "JM TOWER • EXCLUSIVE",
+      "recentListings": "Available Spaces & Listings",
+      "exploreOptions": "Explore premium residential apartments, commercial mall spaces, and secure parking",
+      "amenities": "Features",
+      "location": "Location",
+      "contactNow": "Contact Us Now",
+      "statusAvailable": "Available",
+      "viewDetails": "Explore Details",
+      "firstApartment": {
+        "badge": "Residential Space",
+        "title": "Luxury Residential Apartments",
+        "agent": "Modern luxury living in the heart of Batumi",
+        "description": "Molly, B & C Towers offer a diverse selection of premium residences featuring white frame delivery, exceptional spatial layouts, and breathtaking views of the Black Sea and city skyline.",
+        "location": "Molly, B & C Towers • Batumi",
+        "f1": "Premium White Frame Condition",
+        "f2": "12 High-Speed Elevators",
+        "f3": "Panoramic Sea & City Views",
+        "f4": "24/7 Security & Video Monitoring"
+      },
+      "parkingLot": {
+        "badge": "Underground Parking",
+        "title": "Secure Parking Facilities",
+        "agent": "Multi-level underground parking complex",
+        "description": "Comprehensive underground parking across Molly, B, and C Towers. Facilities in Molly and B Towers accommodate mall visitors, while dedicated private parking bays in C Tower are available for purchase.",
+        "location": "Molly, B & C Towers • Levels -1 / -2",
+        "f1": "Multi-Level Underground Facility",
+        "f2": "24/7 CCTV Surveillance",
+        "f3": "Automated Smart Access Control",
+        "f4": "C Tower Bays Available for Sale"
+      },
+      "mallSpace": {
+        "badge": "Commercial Space",
+        "title": "Shopping Mall & Retail Venue",
+        "agent": "High-footfall commercial spaces for business",
+        "description": "Contemporary shopping center featuring prime commercial venues with floor-to-ceiling glass storefronts, optimally configured for boutique retailers, restaurants, and prominent international brands.",
+        "location": "Molly & B Towers • Floors 1-4",
+        "f1": "Prime Retail & Commercial Units",
+        "f2": "High Consumer Foot Traffic",
+        "f3": "Full Panoramic Glass Facades",
+        "f4": "High ROI Investment Potential"
+      }
+    },
+    "translation": {
+      "title": "Premium Residential Construction",
+      "description": "We specialize in delivering high-quality, modern homes that combine design, comfort, and sustainability. Our team is dedicated to creating living spaces that exceed expectations.",
+      "buttonText": "Learn More"
+    },
+    "about": {
+      "squareAlt": "Decorative design element",
+      "imageAlt": "Our building company headquarters",
+      "title": "About Our Company",
+      "description": "Years of experience in the construction field have brought us trust. Quality is our main sign, and the satisfaction of the future resident is our starting point.",
+      "readMore": "Learn More"
+    },
+
+    "whyus": {
+      "title": "Why Choose Us",
+      "years": "Apartments Built",
+      "projects": "Projects Delivered",
+      "customers": "Satisfied Clients",
+      "rates": "Affordable Rates",
+      "subtext1": "Premium modern residential units",
+      "subtext2": "Landmark architectural developments",
+      "subtext3": "Happy residents and investors",
+      "subtext4": "Best investment price per m²"
+    },
+    "testimonials": {
+      "title": "What Our Customers Think",
+      "subtitle": "Real feedback from homeowners and commercial investors",
+      "verified": "Verified Resident",
+      "0": {
+        "name": "George Maisuradze",
+        "role": "Block A • 14th Floor Resident",
+        "text": "Your company's professionalism turned our family's dream home into reality. The construction process was transparent and hassle-free, and the result far exceeds our expectations."
+      },
+      "1": {
+        "name": "Nino Gelashvili",
+        "role": "Block B • Verified Homeowner",
+        "text": "I'm delighted that I chose your company to build my home. The project was completed on time, within budget, and the quality is truly outstanding. The entire process was easy and pleasant."
+      },
+      "2": {
+        "name": "Levan Beridze",
+        "role": "Commercial Space Investor",
+        "text": "As a business owner, I greatly appreciate your team's punctuality and professionalism. Our commercial building turned out exactly as we envisioned, and the construction proceeded without any obstacles."
+      }
+    },
+    "contact": {
+      "us": "Get In Touch",
+      "name": "Name",
+      "email": "Email",
+      "phone": "Phone Number",
+      "message": "Message",
+      "send": "Send",
+      "success": "Message sent successfully!",
+      "error": "Failed to send message."
+    }
+  },
+  "footer": {
+    "companyName": "Your Company Name",
+    "rightsReserved": "All rights reserved."
+  },
+  "design": {
+    "title": "Apartment Design",
+    "studio": "Studio",
+    "oneBedroom": "One Bedroom",
+    "twoBedroom": "Two Bedroom",
+    "corner": "Corner Apartment",
+    "2d": {
+      "label": "Up View",
+      "title": "Blueprint Layout",
+      "description": "Detailed 3D blueprint of the initial layout."
+    },
+    "3d": {
+      "label": "Front View",
+      "title": "3D Model Preview",
+      "description": "Visualized 3D version with spatial dimensions."
+    }
+  },
+  "blockC": {
+    "title": "Block C",
+    "comingSoon": "Coming Soon",
+    "description": "We’re working hard to finish the development of this section. Stay tuned!",
+    "backHome": "Back to Home"
+  },
+  "translation": {
+    "title": "Premium Home Building",
+    "description": "We build quality modern homes that combine design, comfort and sustainability. Our team creates living spaces that will meet your expectations.",
+    "buttonText": "Learn more"
+  },
+  "staff": {
+    "staff": "Our Team",
+    "badge": "Leadership & Staff",
+    "subtitle": "The dedicated professionals committed to your dream living space",
+    "cardOne": "Avtandil Jumushadze",
+    "cardTwo": "Ia Beridze",
+    "cardThree": "Tamila Ebralidze",
+    "cardFour": "Rusudan Gvarishvili",
+    "cardFive": "Nugzar Jumushadze",
+    "descriptionOne": "General Director",
+    "descriptionTwo": "Financial Director",
+    "descriptionThree": "Chief Accountant",
+    "descriptionFour": "Sales Manager",
+    "descriptionFive": "Sales Manager",
+    "deptOne": "Leadership",
+    "deptTwo": "Leadership",
+    "deptThree": "Finance",
+    "deptFour": "Sales",
+    "deptFive": "Sales"
+  },
+  "director": {
+    "badge": "Leadership Address",
+    "name": "Avtandil Jumushadze",
+    "role": "General Director",
+    "company": "JM Tower",
+    "quote": "Our mission is to create more than just living spaces — we build a new standard of living where elite construction quality, contemporary architecture, and harmonious everyday comfort unite. Every element of JM Tower is designed for the safety, well-being, and peaceful future of you and your family.",
+    "paragraph2": "Client trust and uncompromising reliability remain our core foundation. We implement European-grade eco-friendly materials and cutting-edge engineering solutions throughout every phase.",
+    "feature1": "Premium Construction Quality",
+    "feature2": "Safety & Structural Reliability",
+    "feature3": "Strict On-Time Delivery",
+    "contactBtn": "Get in Touch",
+    "experienceBadge": "Excellence in Construction"
+  }
+}
